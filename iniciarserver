@@ -1,0 +1,5 @@
+@echo off
+ngrok.exe tcp 25565
+java -Xms8G -Xmx8G -jar mohist-1.16.5-1077-server.jar -nogui
+pause
+
